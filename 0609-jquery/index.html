@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Jquery & Bootstrap</h1>
+    </div>
+    <div class="main">
+        <div class="list-group">
+            <button id="home" type="button" class="list-group-item list-group-item-action">Home</button>
+            <button id="libs" type="button" class="list-group-item list-group-item-action">Mad Libs</button>
+            <button id="thumb" type="button" class="list-group-item list-group-item-action">Tom Thumb</button>
+          </div>
+        <div id="page" class="home">
+            <div id="home-page">
+                <h2>Home page</h2>
+                <p>There is nothing interesting, go further</p>
+            </div>
+
+            <div id="libs-page">
+                <h2>Mad Libs</h2>
+                <div class="libs-request">
+                    <input type="text" id="person-input" placeholder="Name">
+                    <input type="text" id="char-input" placeholder="Character">
+                    <input type="text" id="adverb-input" placeholder="Adverb">
+                    <input type="text" id="adj-input" placeholder="Adjective">
+                    <button id="tellStory" type="button">Tell Story</button>
+                </div>
+                <div class="libs-response">
+                    <h4>Mura's Crazy MadLibs Story</h4>
+                    <p id="txt">Once Upon a time, NAME has come to Dalida, to ADVERB ask for joining nFactorial incubator. Dalida called CHARACTER to get rid of NAME. ADJECTVIVE actions of NAME was so impressive, so CHARACTER couldn 't control himself and ADVERB cried. </p>
+                </div>  
+            </div>
+
+            <div id="thumb-page">
+                <h2>Tom Thumb</h2>
+                <div class="thumb-request">
+                    <input type="text" id="width" placeholder="Image width">
+                    <input type="text" id="height" placeholder="Image height">
+                    <input type="text" id="colors" placeholder="Number of colors">
+                    <button id="calculate" type="button">Calculate</button>
+                </div>
+
+                <div class="thumb-response">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
