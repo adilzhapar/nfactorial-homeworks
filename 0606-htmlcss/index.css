@@ -1,0 +1,116 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+  
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redExample {
+    flex: 1;
+    background-color: red;
+  }
+  
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  
+  .blueExample80 {
+    width: 80px;
+    background-color: blue;
+  }
+
+  .redExample80 {
+      width: 80px;
+      background-color: red;
+  }
+
+
+  .emptyExample3 {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .emptyExample4 {
+      justify-content: flex-end;
+      background-color: red;
+  }
+
+  .redExample5 {
+      width : 40px;
+      height : 40px;
+      background-color: red;
+      margin: 10px 0 10px 0;
+  }
+
+  .emptyExample5 {
+      justify-content: center;
+  }
+
+  .emptyExample6 {
+      justify-content: center;
+      background-color: red;
+  }
+
+  .emptyExample7 {
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  .blueExample7 {
+      height: 20px;
+      background-color: blue;
+  }
+
+  .inner7 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .yellowExample80 {
+      width: 80px;
+      background-color: yellow;
+  }
+
+  .emptyExample8 {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .emptyExample9 {
+      background-color: yellow;
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .greenExample9 {
+      width: 10px;
+      background-color: green;
+  }
+
+
+  
+  /* TODO: Add CSS for the rest of your solution below */
