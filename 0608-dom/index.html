@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Banana music</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="code.js" defer></script>
+    <script src="https://kit.fontawesome.com/44f8eb85bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <p id="track-name">Lorem Ipsum</p>
+        <h1>Banana music</h1>
+        <img id="logo" src="banana.png" alt="logo" width="100px"/>
+        <p id="artist">Lorem Ipsum</p>
+    </header>
+    <div class="video">
+        <video id="video" src="mp4/chill.mp4" muted  width="60%"></video>        
+    </div>
+
+    <div class="buttons">
+        <div class="backward" onclick="prevTrack()"><i class="fa-solid fa-backward-step"></i></div>
+        <div  class="play" onclick="playpauseTrack()"><i class="fa-solid fa-play" ></i></div>
+        <!-- <div><i class="fa-solid fa-pause"></i></div> -->
+        <div  class="forward" onclick="nextTrack()"><i class="fa-solid fa-forward-step"></i></div>
+        <div class="mute" onclick="muteUnmute()"><i class="fa-solid fa-volume-xmark" ></i></div>
+        
+    </div>
+
+    <div class="slider_container">
+        <div class="current-time">00:00</div>
+        <input type="range" min="1" max="100"
+          value="0" class="seek_slider" onchange="seekTo()">
+        <div class="total-duration">00:00</div>
+    </div>
+
+    <div class="slider_container">
+        <i class="fa fa-volume-down"></i>
+        <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+        <i class="fa fa-volume-up"></i>
+      </div>
+      
+</body>
+</html>
