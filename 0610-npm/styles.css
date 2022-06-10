@@ -1,0 +1,87 @@
+main{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.light {
+    background-color: #ff9966;
+}
+
+.dark {
+    background-color: #333333;
+    color: #dddfe2;
+}
+
+h1, h3 {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 3vh;
+}
+
+input {
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    width: 300px;
+    height: 25px;
+    margin: 1%;
+    font-size: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: fit-content;
+    margin: 1%;
+    background-color: #00001a;
+    color: #ff9966;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.emp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px #00001a solid;
+    max-width: 10%;
+    margin: 1%;
+}
+.jsp {
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.jspw {
+    font-size: larger;
+}
+
+.warriors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.15%;
+}
+
+.object {
+    display: flex;
+    flex-direction: row;
+}

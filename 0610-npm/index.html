@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>Dalida's Empire</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="index.js" defer></script>
+    </head>
+    <body onload="getValue()">
+        <main id="mainContainer" class="light">
+
+            <h1>Dalida's Empire</h1>
+            <h3>Input required fields:</h3>
+
+            <div class="inputs">
+                <input type="text" id="cntry" placeholder="Country" onkeydown="adding()">
+                <input type="text" id="army" placeholder="Amount of army" onkeydown="adding()">
+                <input type="text" id="cmdr" placeholder="Commandor" onkeydown="adding()">
+                <button onclick="add()" id="add">Add</button>
+            </div>
+            <div class="in_warrior">
+                <input type="text" id="wrw" placeholder="New warrior" onkeydown="adding_wrw()">
+                <input type="text" id="wrw-cnt" placeholder="Country" onkeydown="adding_wrw()">
+                <button onclick="add_wrw()" id="add_wrw">Add Warrior</button>
+            </div>
+            <div class="object">
+                <!-- <div class="emp">
+                    <p class="jsp">Rome</p>
+                    <p class="jsp">10000</p>
+                    <p class="jsp">Aidar</p>
+                    <div class="warriors">
+                        <p class="jsp">Beka</p>
+                        <p class="jsp">Mura</p>
+                        <p class="jsp">Aru</p>
+                    </div>
+                
+                </div> -->
+            </div>
+
+            <button onclick="setTheme()">Change Theme</button>
+            <button onclick="makeCookie()">Cookie</button>
+
+
+        </main>
+        
+    </body>
+</html>
